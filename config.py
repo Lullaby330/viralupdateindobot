@@ -10,7 +10,7 @@ from logging.handlers import RotatingFileHandler
 
 
 #Bot token @Botfather
-TG_BOT_TOKEN = os.environ.get("TG_BOT_TOKEN", "6472922432:AAHdZvEcI7fNox4XCLl2Gfd6kxVz-h4mFw0")
+TG_BOT_TOKEN = os.environ.get("TG_BOT_TOKEN", "6329596741:AAFHqjuDeqhZMCCvJEcFmAkDpZh8c8Nwzys")
 
 #Your API ID from my.telegram.org
 APP_ID = int(os.environ.get("APP_ID", "6216349"))
@@ -19,20 +19,20 @@ APP_ID = int(os.environ.get("APP_ID", "6216349"))
 API_HASH = os.environ.get("API_HASH", "5c7418e9f3df6db931caa7354521c55f")
 
 #Your db channel Id
-CHANNEL_ID = int(os.environ.get("CHANNEL_ID", "-1001793764039"))
+CHANNEL_ID = int(os.environ.get("CHANNEL_ID", "-1001915293220"))
 
 #OWNER ID
-OWNER_ID = int(os.environ.get("OWNER_ID", "1850233338"))
+OWNER_ID = int(os.environ.get("OWNER_ID", "643377"))
 
 #Port
-PORT = os.environ.get("PORT", "7663")
+PORT = os.environ.get("PORT", "6478")
 
 #Database 
 DB_URI = os.environ.get("DATABASE_URL", "mongodb+srv://asubang:asubang@cluster0.dnjfe.mongodb.net/?retryWrites=true&w=majority")
-DB_NAME = os.environ.get("DATABASE_NAME", "bokepsmaindorobot")
+DB_NAME = os.environ.get("DATABASE_NAME", "viralupdateindobot")
 
 #force sub channel id, if you want enable force sub
-FORCE_SUB_CHANNEL = int(os.environ.get("FORCE_SUB_CHANNEL", "-1001626367357"))
+FORCE_SUB_CHANNEL = int(os.environ.get("FORCE_SUB_CHANNEL", "-1001785876954"))
 
 TG_BOT_WORKERS = int(os.environ.get("TG_BOT_WORKERS", "4"))
 
